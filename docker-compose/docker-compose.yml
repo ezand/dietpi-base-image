@@ -1,0 +1,5 @@
+version: "3"
+services:
+  hello_world:
+    image: alpine
+    command: [/bin/echo, 'Hello world']
